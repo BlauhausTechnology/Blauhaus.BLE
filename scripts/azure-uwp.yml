@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'src\Blauhaus.DeviceServices.sln'
+  solution: 'src\Blauhaus.BLE.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   appxPackageDir: '$(build.artifactStagingDirectory)\AppxPackages\\'
@@ -42,5 +42,5 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'Blauhaus Nuget'
+    publishFeedCredentials: 'Blauhaus Nuget-Blauhaus.BLE'
 
