@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.BLE.Abstractions", "Blauhaus.BLE.Abstractions\Blauhaus.BLE.Abstractions.csproj", "{D7D8012E-5DFF-4E8B-9F2A-39776E25556E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.BLE.Client", "Blauhaus.BLE.Client\Blauhaus.BLE.Client.csproj", "{4D50781C-CD61-49E6-94F9-F7E7DBF4E947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.BLE", "Blauhaus.BLE\Blauhaus.BLE.csproj", "{4D50781C-CD61-49E6-94F9-F7E7DBF4E947}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blauhaus.BLE.TestHelpers", "Blauhaus.BLE.TestHelpers\Blauhaus.BLE.TestHelpers.csproj", "{1C2DC65A-E93E-4648-B536-2A27306A048D}"
 EndProject

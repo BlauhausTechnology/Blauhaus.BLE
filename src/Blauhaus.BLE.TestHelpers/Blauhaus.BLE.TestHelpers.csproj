@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Blauhaus.BLE.Abstractions\Blauhaus.BLE.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
