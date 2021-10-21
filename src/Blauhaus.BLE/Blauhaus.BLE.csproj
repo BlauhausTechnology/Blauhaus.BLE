@@ -10,6 +10,7 @@
    
   <ItemGroup>
     <PackageReference Include="Blauhaus.Analytics.Abstractions" Version="1.7.3" />
+    <PackageReference Include="Blauhaus.Ioc.Abstractions" Version="1.4.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Plugin.BLE" Version="2.1.2" />
   </ItemGroup>
@@ -23,13 +24,10 @@
   <ItemGroup>
 	  <Compile Include=".Ioc\**\*.cs" />
       <Compile Include="BluetoothSensors\**\*.cs" />
-      <Compile Include="Devices\**\*.cs" />
+	  <Compile Include="Devices\**\*.cs" />
       <Compile Include="Services\**\*.cs" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Compile Remove="Services\BluetoothCharacteristic.cs" />
-  </ItemGroup>
+   
 
 </Project>

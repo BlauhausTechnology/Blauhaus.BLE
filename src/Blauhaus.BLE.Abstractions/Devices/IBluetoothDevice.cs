@@ -6,7 +6,7 @@ using Blauhaus.Common.Abstractions;
 
 namespace Blauhaus.BLE.Abstractions.Devices
 {
-    public interface IBluetoothDevice : IAsyncPublisher<BluetoothDeviceState>
+    public interface IBluetoothDevice : IAsyncPublisher<BluetoothDeviceState>, IAsyncInitializable<Guid> 
     {
         Task<IReadOnlyList<Guid>> GetServiceIdsAsync();
         Task<IBluetoothService> GetServiceAsync(Guid serviceId);
