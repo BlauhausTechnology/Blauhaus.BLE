@@ -1,6 +1,6 @@
 ﻿using Blauhaus.Common.Abstractions;
 
-namespace Blauhaus.BLE.Abstractions.Sensor
+namespace Blauhaus.BLE.Abstractions.BluetoothSensor
 {
     public interface IBluetoothSensor : IAsyncPublisher<BluetoothSensorState>
     {

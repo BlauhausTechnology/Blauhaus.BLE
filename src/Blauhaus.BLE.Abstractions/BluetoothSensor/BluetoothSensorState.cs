@@ -1,4 +1,4 @@
-﻿namespace Blauhaus.BLE.Abstractions.Sensor
+﻿namespace Blauhaus.BLE.Abstractions.BluetoothSensor
 {
     public enum BluetoothSensorState
     {

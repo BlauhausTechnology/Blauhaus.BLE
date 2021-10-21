@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Blauhaus.Common.Abstractions;
 using Blauhaus.Responses;
 
-namespace Blauhaus.BLE.Abstractions.Characteristics
+namespace Blauhaus.BLE.Abstractions.Services
 {
     public interface IBluetoothService : IAsyncPublisher<IReadOnlyList<Guid>>
     {

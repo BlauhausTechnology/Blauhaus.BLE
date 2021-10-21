@@ -1,4 +1,4 @@
-﻿namespace Blauhaus.BLE.Abstractions.Device
+﻿namespace Blauhaus.BLE.Abstractions.Devices
 {
     public enum BluetoothDeviceState
     {
